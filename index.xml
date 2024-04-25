@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!---><!DOCTYPE student [
+    <!ELEMENT student (name,age,batch,fees)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT batch (#PCDATA)>
+    <!ELEMENT fees (#PCDATA)>
+]><!-->
+
+  <!DOCTYPE student SYSTEM "first.dtd">
+<student>
+        <name>Ali</name>
+        <name>Ahmed</name>
+       <!--  <age>23</age> -->
+        <batch>2310G1</batch>
+        <fees>8000</fees>
+</student>

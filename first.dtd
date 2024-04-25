@@ -1,0 +1,5 @@
+<!ELEMENT student (#PCDATA|name|age|batch|fees)*>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT batch (#PCDATA)>
+    <!ELEMENT fees (#PCDATA)>
